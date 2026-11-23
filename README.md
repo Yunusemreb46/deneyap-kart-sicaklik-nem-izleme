@@ -33,5 +33,5 @@ Bu proje; **Deneyap Kart**, **DHT22** sıcaklık/nem sensörü ve **16x2 I2C LCD
     dotnet add package System.IO.Ports
     ```
 11. Windows **Aygıt Yöneticisi > Bağlantı Noktaları (COM ve LPT)** sekmesinden Deneyap Kart'ın bağlı olduğu COM port numarasını kontrol edin ve gerekirse `Program.cs` içerisindeki port bilgisini güncelleyin.
-12. Uygulamanın ana giriş dosyası olan **`Program.cs`** dosyasını çalıştırın (Visual Studio / VS Code üzerinden **Run / F5** tuşuyla veya terminalde `dotnet run` komutu ile).
+12. Uygulamanın ana giriş dosyası olan **`Program.cs`** dosyasını çalıştırın VS Code üzerinden **Run / F5** tuşuyla veya terminalde `dotnet run` komutu ile).
 13. Masaüstü arayüz penceresi açılacak ve karttan gelen sıcaklık ile nem değerleri ekranda anlık olarak görüntülenmeye başlayacaktır. **Tüm bu adımlar tamamlandığında kurulum bitmiş ve sistem sorunsuz bir şekilde çalışmış olur.**
